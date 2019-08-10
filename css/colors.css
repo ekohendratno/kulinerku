@@ -1,0 +1,162 @@
+#message,#message_no_ani, p.message,p.message_no_ani,div #error,div #success,div #error_no_ani{
+	text-align:left;
+	padding:10px 10px 10px 10px;
+    border-radius: 2px;
+	margin-top:1px;
+	margin-bottom:1px;
+	
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+	
+	font-family:'LG';
+}
+#message strong, p.message strong, p.message_no_ani strong,div #error strong,div #success strong,div #error_no_ani strong,div #message_no_ani strong{
+	font-family:'LGB';
+}
+#message, .message, #message_no_ani {
+	background-color: #ffffe0;
+	border: 1px solid #e6db55;
+}
+#success {
+	background-color: #c9f7b4;
+	border: 1px solid #6ec747;
+}
+#error,#error_no_ani {
+	background-color: #ffebe8;
+	border: 1px solid #c00;
+}
+
+.blue{
+	background-color:#1E90FF;
+	color:#fff;
+}
+.red{
+	background-color:red;
+	color:#fff;
+}
+.black{
+	background-color:black;
+	color:#fff;
+}
+.green{
+	background-color:green;
+	color:#000;
+}
+
+/* color gray default */
+input[type="submit"].button:hover, input[type="Reset"].button:hover {
+	background: #fff;
+	border:solid 1px #D9D9D9;
+}
+input[type="submit"].button:active, input[type="Reset"].button:active {
+	background: #fff;
+	border:solid 1px #D9D9D9;
+	color:#333;
+}
+input[type="button"], input[type="submit"], input[type="reset"] {
+	background:#F3F3F3;
+	border:solid 1px #D9D9D9;
+	color: #000;
+}
+
+/* color blue */
+input[type="submit"].button.blue:hover, input[type="Reset"].button.blue:hover {
+	background: #30AEF6;
+	border:solid 1px #1F9BE2;
+	color:#fff;
+}
+input[type="submit"].button.blue:active, input[type="Reset"].button.blue:active {
+	background: #30AEF6;
+	border:solid 1px #1F9BE2;
+	color:#fff;
+}
+input[type="button"].blue, input[type="submit"].blue, input[type="reset"].blue {
+	background:#30AEF6;
+	border:solid 1px #1F9BE2;
+	color: #fff;
+}
+
+/* color black */
+input[type="submit"].button.black:hover, input[type="Reset"].button.black:hover {
+	background: #424343;
+	border:solid 1px #303031;
+	color:#fff;
+}
+input[type="submit"].button.black:active, input[type="Reset"].button.black:active {
+	background: #424343;
+	border:solid 1px #303031;
+	color:#fff;
+}
+input[type="button"].black, input[type="submit"].black, input[type="reset"].black {
+	background:#424343;
+	border:solid 1px #303031;
+	color: #fff;
+}
+
+/* color red */
+.num .button .red {
+input[type="submit"].button.red:hover, input[type="Reset"].button.red:hover {
+	background: #E92E2F;
+	border:solid 1px #D10D15;
+	color:#fff;
+}
+input[type="submit"].button.red:active, input[type="Reset"].button.red:active {
+	background: #E92E2F;
+	border:solid 1px #D10D15;
+	color:#fff;
+}
+input[type="button"].red, input[type="submit"].red, input[type="reset"].red {
+	background:#E92E2F;
+	border:solid 1px #D10D15;
+	color: #fff;
+}
+
+/* color green */
+input[type="submit"].button.green:hover, input[type="Reset"].button.green:hover {
+	background: #5e9f1d;
+	border:solid 1px #397b06;
+	color:#fff;
+}
+input[type="submit"].button.green:active, input[type="Reset"].button.green:active {
+	background: #5e9f1d;
+	border:solid 1px #397b06;
+	color:#fff;
+}
+input[type="button"].green, input[type="submit"].green, input[type="reset"].green {
+	background:#5e9f1d;
+	border:solid 1px #397b06;
+	color: #fff;
+}
+
+/* color orange */
+input[type="submit"].button.orange:hover, input[type="Reset"].button.orange:hover {
+	background: #FFA500;
+	border:solid 1px #FE6908;
+	color:#fff;
+}
+input[type="submit"].button.orange:active, input[type="Reset"].button.orange:active {
+	background: #FFA500;
+	border:solid 1px #FE6908;
+	color:#fff;
+}
+input[type="button"].orange, input[type="submit"].orange, input[type="reset"].orange {
+	background:#FFA500;
+	border:solid 1px #FE6908;
+	color: #fff;
+}
+/* color white */
+input[type="submit"].button.white:hover, input[type="Reset"].button.white:hover {
+	background: #fff;
+	border:solid 1px #ddd;
+	color:#000;
+}
+input[type="submit"].button.white:active, input[type="Reset"].button.white:active {
+	background: #fff;
+	border:solid 1px #ddd;
+	color:#000;
+}
+input[type="button"].white, input[type="submit"].white, input[type="reset"].white {
+	background:#fff;
+	border:solid 1px #ddd;
+	color: #000;
+}
